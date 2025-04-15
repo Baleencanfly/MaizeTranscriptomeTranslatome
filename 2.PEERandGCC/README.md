@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1b260e55-d564-48d1-9c49-d548bf0df2d3)Basic processing of data
+Basic processing of data
 ===
 
 Remove batch effects
