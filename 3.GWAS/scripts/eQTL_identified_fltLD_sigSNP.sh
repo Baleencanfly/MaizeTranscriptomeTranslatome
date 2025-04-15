@@ -2,7 +2,7 @@
 
 GNAME=$1
 
-perl SigFilt_pheno_5.pl ./output/rna_${GNAME}_filted.ps ./eqtl2sig/${GNAME}.sig.ps
+perl SigFilt_pheno_5.pl ./output/${GNAME}_filted.ps ./eqtl2sig/${GNAME}.sig.ps
 
 perl SNP_merge_filt.pl ./eqtl2sig/${GNAME}.sig.ps ./eqtl2sig/${GNAME}.snp_merge.5.txt
 
